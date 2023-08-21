@@ -1,0 +1,247 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    /* color: white; */
+
+}
+
+.head {
+    background-color: rgb(67, 67, 167);
+    width: 100%;
+    padding: 15px 0px 8px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.facebook_heading h1 {
+    font-size: 40px;
+    padding-left: 100px
+}
+
+.info {
+    padding-right: 200px;
+}
+
+#password {
+    margin-left: 85px;
+}
+
+#login {
+    background-color: rgb(40, 40, 167);
+    color: wheat;
+}
+
+#forget_account {
+    margin-left: 180px;
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    color: white;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////// */
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    background-color: rgb(248, 248, 248);
+}
+
+.text_image {
+    padding: 90px;
+    padding-top: 40px !important;
+    /* padding-left: 00px; */
+    /* margin: auto; */
+
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    /* width: 300px; */
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(10, 10, 167);
+}
+
+.quuick {
+    font-weight: normal;
+    font-size: 22px;
+    margin-top: 5px;
+    color: black;
+}
+
+.form {
+    padding-top: 30px !important;
+    padding: 20px;
+    margin-left: 20PX;
+}
+
+form input {
+    height: 20px;
+    padding: 5px;
+    font-size: 20px;
+    background-color: white;
+    border: 1px solid grey;
+}
+
+form input[type="text"] {
+    width: 220px;
+}
+
+form input[type="password"],
+input[type="email"] {
+
+    width: 100%;
+    margin-top: 13px;
+}
+
+form input[type="date"] {
+    width: 100%;
+    margin-top: 0px;
+
+}
+
+form input[type="radio"] {
+    height: 12px;
+    margin: 5px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+h1 {
+    /* padding-top: 100px; */
+}
+
+input:placeholder-shown {
+    font-size: 20px;
+    padding-left: 5px;
+
+}
+
+#Birthday {
+    margin-top: 15px;
+    /* font-size: 23px; */
+}
+
+pre {
+    margin-top: 15px;
+    font-family: serif;
+    font-size: small;
+}
+
+#signup {
+    /* width: 200px; */
+    width: 200px;
+    padding: 10px 0px;
+    border-radius: 5px;
+    background-color: rgba(3, 151, 3, 0.945);
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    border: none;
+}
+
+@media screen and (max-width:455px) {
+    .form {
+        padding-top: 15px !important;
+        padding: 10px;
+        margin-left: 10PX;
+    }
+
+    form input {
+        height: 10px;
+        padding: 2px;
+        font-size: 10px;
+        background-color: white;
+        border: 1px solid grey;
+    }
+
+    form input[type="text"] {
+        width: 110px;
+    }
+
+    form input[type="password"],
+    input[type="email"] {
+
+        width: 70%;
+        margin-top: 7px;
+    }
+
+    form input[type="date"] {
+        width: 70%;
+        margin-top: 0px;
+
+    }
+
+    form input[type="radio"] {
+        height: 6px;
+        margin: 3px;
+    }
+
+    form {
+        margin-top: 10px;
+    }
+
+    h1 {
+        /* padding-top: 100px; */
+        font-size: 20px;
+    }
+
+
+
+
+    .text_image {
+        padding: 20px;
+        padding-top: 10px !important;
+        /* padding-left: 00px; */
+        /* margin: auto; */
+
+    }
+
+    p {
+        font-family: 'Times New Roman', Times, serif;
+        /* width: 300px; */
+        font-size: 15px;
+        font-weight: bold;
+        color: rgb(10, 10, 167);
+    }
+
+    .quuick {
+        font-weight: normal;
+        font-size: 18px;
+        margin-top: 5px;
+        color: black;
+    }
+
+    input:placeholder-shown {
+        font-size: 10px;
+        padding-left: 5px;
+
+    }
+
+    pre {
+        font-size: 9px;
+    }
+
+
+
+    #signup {
+        /* width: 200px; */
+        width: 100px;
+        padding: 5px 0px;
+        border-radius: 5px;
+        background-color: rgba(3, 151, 3, 0.945);
+        margin-top: 20px;
+        font-size: 10px;
+        color: white;
+        border: none;
+    }
+
+}
